@@ -1,3 +1,4 @@
+
 /* RESET */
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
     margin: 0;
@@ -29,36 +30,37 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 /*  END RESET */
 
-
-
-body {
-    font-family: sans-serif; 
-    background-color: white;
-    
-}
 .header {
     background-color: white;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.2); 
-    position: fixed; 
-    position: sticky; 
-    width: 100%;
-    z-index: 3; 
 }
 
-.logo {
+.navbar button {
+    border: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar navbar-expand-lg navbar-light bg-light {
+    background-color: white
+}
+
+.navbar-brand {
     color: black; 
-    float: left; 
-    display: block;
     font-family: timberline, sans-serif;
     font-weight:200;
     font-style: normal;
     font-size: 2.3em; 
-    padding-top: 35px; 
-    padding-bottom: 10PX;
-    padding-left: 50px;
+    margin-top: 15px;
+
 }
 
-.logo span {
+.navbar-brand span {
     font-family: novecento-sans-wide, sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -67,214 +69,43 @@ body {
     margin-top: 17px;
 }
 
-.header ul li a {
-    display: block; 
-    margin-top: 40px;
-    margin-left: 25px; 
-    margin-bottom: 20px;  
-    margin-right: 5px;  
-    text-decoration: none; 
-    color: black; 
-    font-size: 0.9em; 
+.dropdown:hover .dropdown-menu {
+    display: inherit;
+}
+
+.dropdown-menu {
+    border: none;
+    background-color: white;
+}
+ 
+
+
+ul {
     text-transform: uppercase;
     font-family: novecento-sans-wide, sans-serif;
     font-weight: 100;
     font-style: normal;
-}
-
-.header ul {
-    clear: both;
-    overflow: hidden; 
-    background-color: white;
-    max-height: 0; 
-    transition: max-height .2s ease-out; 
-}
-
-h2 {
     color: black;
-    padding: 200px
+}
+
+.nav-item {
+    padding-right: 10px
+}
+
+#link {
+    padding-right: 30px;
 }
 
 
-/*HOVER START*/
-
-    .header ul li a {
-    position: relative; 
-}
-
-
-    .header ul li a:hover {
+.header ul li a:hover {
     color: black; 
     font-weight: 1000;
 }
 
-    .header ul a::before {
-    content: '';
-    display: block; 
-    height: 1px; 
-    border-radius: 10px; 
-    background-color: black; 
-    
-    position: absolute; 
-    top: -15px;
-    width: 0%; 
-    transition: all ease-in-out 250ms; 
-}
-
-    nav a:hover::before {
-    width: 21%; 
-}
-/*HOVER SLUT*/
-
- 
-
-
-/*RESPONSIV MENU STARTER*/
-
-.header .menu-icon {
-    margin-right: 40px; 
-    padding-top: 42px; 
-    position: relative; 
-    float: right; 
-    cursor: pointer; 
-}
-
-.header .menu-icon .nav-icon {
-    background: #7b7b7b;
-    display: block; 
-    height: 1px; 
-    width: 25px; 
-    position: relative; 
-    transition: background .2s ease-out; 
-}
-
-.header .menu-icon .nav-icon:before {
-    background: #7b7b7b; 
-    content: ''; 
-    display: block; 
-    height: 100%; 
-    width: 100%; 
-    position: absolute; 
-    transition: all .2s ease-out; 
-    top: 5px; 
-}
-
-.header .menu-icon .nav-icon:after {
-    background: #7b7b7b; 
-    content: ''; 
-    display: block; 
-    height: 100%; 
-    width: 100%; 
-    position: absolute; 
-    transition: all .2s ease-out; 
-    top: -5px; 
-}
-
-.header .menu-btn {
-    display: none; 
-}
-
-/*RESPONSIV MENU S*/
 
 
 
 
-/*BURGERBAR --> KRYDS*/
-
-.header .menu-btn:checked ~ ul {
-    max-height: 350px; 
-}
-
-.header .menu-btn:checked ~ .menu-icon .nav-icon {
-    background: transparent; 
-}
-
-.header .menu-btn:checked ~ .menu-icon .nav-icon:before {
-    transform: rotate(-45deg);
-    top: 0; 
-}
-
-.header .menu-btn:checked ~ .menu-icon .nav-icon:after {
-    transform: rotate(45deg);
-    top: 0; 
-}
-
-/*KRYDS SLUT*/
 
 
 
-/*MEDIA 900PX START*/
-
-@media (min-width:900px) {
-    
-    .header {
-        position: fixed; 
-    }
-    
-    .header li {
-        float: left; 
-    }
-    
-    .header li a {
-        margin-top: 25px; 
-        margin-right: 35px; 
-    }
-
-    
-    .header ul {
-        clear: none;
-        float: right; 
-        max-height: none; 
-    }
-    
-    .header .menu-icon {
-        display: none; 
-    }
-    
-    #kilder {
-        padding-right: 40px;
-    }
-    
-    ul a:hover {
-        background-color: white;
-    }
-    
-       nav a:hover::before {
-    width: 100%; 
-}
-    
-    /*MEDIA 1400PX START*/
-
-@media (min-width:1400px) {
-    /*HOVER START*/
-    .header ul li a {
-    position: relative; 
-}
-
-    .header ul li a:hover {
-    color: black; 
-}
-
-    .header ul a::before {
-    content: '';
-    display: block; 
-    height: 1px; 
-    border-radius: 10px; 
-    background-color: black; 
-    
-    position: absolute; 
-    top: -20px; 
-    width: 0%; 
-    transition: all ease-in-out 200ms; 
-}
-    
-     #kilder {
-        padding-right: 60px;
-    }
-
-    nav a:hover::before {
-    width: 100%; 
-}
-
-
-/*MEDIA 1400PX SLUT*/
