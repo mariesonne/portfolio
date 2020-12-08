@@ -4,7 +4,7 @@
             <a class="navbar-brand" href="#">Marie Sonne <span>l æ r i n g s p o r t f o l i o</span></a>
               
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
             </button>
             
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -35,9 +35,13 @@
                         </a>
                       
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <a class="dropdown-item" href="#">Action</a>
-                          <a class="dropdown-item" href="#">Another action</a>
-                          <a class="dropdown-item" href="#">Something else here</a>
+                          <a class="dropdown-item" href="#">Illustrator</a>
+                          <a class="dropdown-item" href="#">Photoshop</a>
+                          <a class="dropdown-item" href="#">Premiere Rush</a>
+                            <a class="dropdown-item" href="#">Farver</a>
+                            <a class="dropdown-item" href="#">Typografi</a>
+                            <a class="dropdown-item" href="#">Gestalove</a>
+                            <a class="dropdown-item" href="#">informationsarkitektur</a>
                         </div>
                         
                     </li>
@@ -49,9 +53,13 @@
                         </a>
                       
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <a class="dropdown-item" href="#">Action</a>
-                          <a class="dropdown-item" href="#">Another action</a>
-                          <a class="dropdown-item" href="#">Something else here</a>
+                          <a class="dropdown-item" href="#">Grundlæggende kommunikation</a>
+                          <a class="dropdown-item" href="#">Tekstproduktion</a>
+                          <a class="dropdown-item" href="#">Præsentationsteknink</a>
+                            <a class="dropdown-item" href="#">Business Model Canvas</a>
+                            <a class="dropdown-item" href="#">Ophavsret og licenseringsmetoder</a>
+                            <a class="dropdown-item" href="#">Kvantitativ og kvalitativ emperi</a>
+                            <a class="dropdown-item" href="#">Usability testmetoder</a>
                         </div>
       
                     </li>
@@ -62,10 +70,11 @@
                           Projekter
                         </a>
                       
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <a class="dropdown-item" href="#">Action</a>
-                          <a class="dropdown-item" href="#">Another action</a>
-                          <a class="dropdown-item" href="#">Something else here</a>
+                        <div class="dropdown-menu" id="projekt" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="#">Designthinking</a>
+                          <a class="dropdown-item" href="#">HTML og CSS workshop</a>
+                          <a class="dropdown-item" href="#">Photoshop / <span id="nedryk">Illustrator workshop</span></a>
+                            <a class="dropdown-item" href="#">Onepage</a>
                         </div>
       
                     </li>
