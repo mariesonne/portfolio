@@ -30,56 +30,47 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 /*  END RESET */
 
-*{
-            padding:0;
-            margin:0;
-            box-sizing: border-box;
-        }
-        
-        body{
-            background:#eee;
-            font-family:sans-serif;
-        }
-        
-        .banner-area{
-            width:100%;
-            height:100vh;
-            background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(back-img.jpg);
-            background-size:cover;
-        }        
-        
-        .content-area{
-            height:100%;
-            display:flex;
-            justify-content: center;
-            align-items: center;
-        }
-        
-       .content{
-            text-align: center;
-        }
-        
-        .content h1{
-            font-size:80px;
-            color:#fff;
-        }
-        
-        .content p{
-            font-size:30px;
-            color:#ddd;
-        }
-        
-        .content .btn{
-            border:none;
-            outline:none;
-            padding:15px;
-            margin-top:100px;
-            border-radius: 4px;
-            color:#eee;
-            font-size: 18px;
-            cursor: pointer;    
-            background:#222;             
-        }
+
+.img-container {
+    width: 100%; 
+    height: 80vh; 
+    overflow: hidden; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.img-container img {
+    position: absolute; 
+    object-fit: cover; 
+    width: 100%;
+    height: 100%; 
+    pointer-events: none;
+    z-index: -1;
+}
+
+.inner-container {
+    position: relative; 
+    z-index: 1; 
+    max-width: 1000px; 
+    text-align: center;
+}
+
+
+.inner-container h1 {
+    font-family: novecento-sans-wide, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1em;
+    margin-top: 6px;
+    color: white;
+}
+
+
+
+
+     
+          
 
 
 

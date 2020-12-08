@@ -18,16 +18,12 @@
         
     </header>
     
-    
-        <div class="banner-area">
-        <div class="content-area">
-           <div class="content">
-              <h1>Web Zone</h1>
-              
-              <p>Full screen hero background image</p>
-              
-              <button class="btn">Click Here</button>
-           </div>
+    <div class="img-container">
+        
+        <img src="billeder/forsidebillede%20copy.jpg" alt="" width="100%">
+        
+        <div class="inner-container">
+            <h1>L Æ R I N G S P O R T F O L I O</h1>
         </div>
     </div>
     
