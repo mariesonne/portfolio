@@ -1,7 +1,7 @@
     <div class="d">
         <nav class="navbar navbar-expand-lg navbar-light bg-custom">
           
-            <a class="navbar-brand" href="#">Marie Sonne <span>l æ r i n g s p o r t f o l i o</span></a>
+            <a class="navbar-brand" href="index.php">Marie Sonne <span>l æ r i n g s p o r t f o l i o</span></a>
               
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -23,7 +23,7 @@
                           <a class="dropdown-item" href="#">HTML</a>
                             <a class="dropdown-item" href="#">CSS</a>
                             <a class="dropdown-item" href="#">Versionsstyring</a>
-                            <a class="dropdown-item" href="#">Frameworks</a>
+                            <a class="dropdown-item" href="frameworks.php">Frameworks</a>
                         </div>
                        
                     </li>
@@ -53,7 +53,7 @@
                         </a>
                       
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <a class="dropdown-item" href="#">Grundlæggende kommunikation</a>
+                          <a class="dropdown-item" href="grund-kommunikation.php">Grundlæggende kommunikation</a>
                           <a class="dropdown-item" href="#">Tekstproduktion</a>
                           <a class="dropdown-item" href="#">Præsentationsteknink</a>
                             <a class="dropdown-item" href="#">Business Model Canvas</a>

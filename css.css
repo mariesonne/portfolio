@@ -1,0 +1,223 @@
+
+/* RESET */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1em;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;   
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content:''; content:none;
+
+}
+
+
+/*  END RESET */
+
+
+
+
+#h2 {
+    font-family: novecento-sans-wide, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#indholdpaasiden {
+    font-family: novecento-sans-wide, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    
+}
+
+.indholdoversigt {
+    text-align: center;
+    line-height: 40px;
+    padding-bottom: 30px;
+}
+
+.indholdoversigt ul li a {
+    text-decoration: none;
+    color: grey;
+}
+
+.indholdoversigt ul li a:hover {
+    color: black;
+}
+
+.indholdcontainer {
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: center;
+    }
+
+.h3 {
+    font-family: novecento-sans-wide, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding: 30px 30px;
+}
+
+h4 {
+    font-family: novecento-sans-wide, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-family: novecento-sans-wide, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.tekst {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: hero-new, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 30px;
+    
+}
+
+#citat {
+    font-family: hero-new, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+
+.boks {
+    background-color: #e3dcd4;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-left: -50px;
+    margin-right: -50px;
+}
+
+.tekst-i-boks {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: hero-new, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+#smiley {
+    display: flex;
+}
+
+#konsmiley {
+    flex: 50%;
+    width: 50%;
+    height: 50%
+}
+
+#inkonsmiley {
+    flex: 50%;
+    width: 50%;
+    height: 50%;
+}
+
+#imk {
+    width: 90%;
+    padding: 20px;
+    
+}
+
+.kilder {
+    text-decoration: none;
+    line-height: 10px;
+}
+
+/*MEDIA 900PX START*/
+
+@media (min-width:700px) {
+    
+    .indholdcontainer {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+    .boks {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-left: -100px;
+        margin-right: -100px;
+    }
+    
+    .tekst-i-boks {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+   
+ }
+
+
+
+/* MEDIA 900PX SLUT */
+
+
+
+/*MEDIA 1400PX START*/
+
+@media (min-width:1200px) {
+    
+    .indholdcontainer {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    
+    .boks {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        margin-left: -200px;
+        margin-right: -200px;
+    }
+    
+    .tekst-i-boks {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+    
+    #imk {
+    width: 60%;
+}
+    
+}
+/*MEDIA 1400PX SLUT*/
