@@ -83,7 +83,7 @@ blockquote:before, blockquote:after, q:before, q:after {
     font-size: 1.5em;
     text-transform: uppercase;
     padding-top: 30px;
-    padding: 30px 30px;
+    padding: 10px 10px;
 }
 
 h4 {
@@ -91,6 +91,7 @@ h4 {
     font-weight: 700;
     font-style: normal;
     text-transform: uppercase;
+    margin-top: 40px;
 }
 
 h5 {
@@ -100,8 +101,10 @@ h5 {
     text-transform: uppercase;
 }
 
+
+
 .tekst {
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
     font-family: hero-new, sans-serif;
     font-weight: 200;
@@ -114,6 +117,7 @@ h5 {
     font-family: hero-new, sans-serif;
     font-weight: 200;
     font-style: italic;
+    padding-bottom: 20px;
 }
 
 
@@ -164,6 +168,15 @@ h5 {
     line-height: 10px;
 }
 
+#fisk {
+    width: 100%;
+    
+}
+
+
+
+
+
 /*MEDIA 900PX START*/
 
 @media (min-width:700px) {
@@ -184,6 +197,11 @@ h5 {
         padding-left: 100px;
         padding-right: 100px;
     }
+    
+    #fisk {
+    width: 60%;
+    
+}
     
    
  }
@@ -217,6 +235,11 @@ h5 {
     
     #imk {
     width: 60%;
+}
+    
+    #fisk {
+    width: 50%;
+    
 }
     
 }

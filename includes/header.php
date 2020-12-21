@@ -55,7 +55,7 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                           <a class="dropdown-item" href="grund-kommunikation.php">Grundlæggende kommunikation</a>
                           <a class="dropdown-item" href="#">Tekstproduktion</a>
-                          <a class="dropdown-item" href="#">Præsentationsteknink</a>
+                          <a class="dropdown-item" href="praesentationteknik.php">Præsentationsteknink</a>
                             <a class="dropdown-item" href="#">Business Model Canvas</a>
                             <a class="dropdown-item" href="#">Ophavsret og licenseringsmetoder</a>
                             <a class="dropdown-item" href="#">Kvantitativ og kvalitativ emperi</a>
