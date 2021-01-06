@@ -35,9 +35,10 @@
                         </a>
                       
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <a class="dropdown-item" href="#">Illustrator</a>
-                          <a class="dropdown-item" href="#">Photoshop</a>
-                          <a class="dropdown-item" href="#">Premiere Rush</a>
+                        <a class="dropdown-item" href="foto.php">Grundlæggende fotografering</a>
+                          <a class="dropdown-item" href="illustrator.php">Illustrator</a>
+                          <a class="dropdown-item" href="photoshop.php">Photoshop</a>
+                          <a class="dropdown-item" href="rush.php">Premiere Rush</a>
                             <a class="dropdown-item" href="#">Farver</a>
                             <a class="dropdown-item" href="#">Typografi</a>
                             <a class="dropdown-item" href="#">Gestalove</a>

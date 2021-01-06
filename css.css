@@ -82,7 +82,7 @@ blockquote:before, blockquote:after, q:before, q:after {
     font-style: normal;
     font-size: 1.5em;
     text-transform: uppercase;
-    padding-top: 30px;
+    padding-top: 40px;
     padding: 10px 10px;
 }
 
@@ -91,7 +91,13 @@ h4 {
     font-weight: 700;
     font-style: normal;
     text-transform: uppercase;
-    margin-top: 40px;
+    padding-top: 60px;
+    border-top: 40px;
+    background-color: white;
+}
+
+.h4boks {
+    background-color: #e3dcd4;
 }
 
 h5 {
@@ -173,6 +179,33 @@ h5 {
     
 }
 
+.henvisning {
+   color: #a39687;
+}
+
+p a .henvisning:hover {
+    text-decoration: none;
+    color: #e3dcd4;  
+}
+
+
+#gradient {
+    width: 90%;
+}
+
+
+.ikoner {
+    padding-bottom: 30px;
+}
+
+.giphy-embed {
+    padding-bottom: 50px;
+}
+
+#story {
+    width: 90%;
+}
+
 
 
 
@@ -239,8 +272,23 @@ h5 {
     
     #fisk {
     width: 50%;
-    
 }
+    
+    .speed {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+            ". slow fast ."
+    }
+
+    #slow {
+        grid-area: slow;
+    }
+    
+    #fast {
+        grid-area: fast;
+    }
+
     
 }
 /*MEDIA 1400PX SLUT*/
