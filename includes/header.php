@@ -19,9 +19,9 @@
                       
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                           <a class="dropdown-item" href="serverside.php">Server</a>
-                          <a class="dropdown-item" href="#">HTML</a>
-                            <a class="dropdown-item" href="#">CSS</a>
-                            <a class="dropdown-item" href="#">Versionsstyring</a>
+                          <a class="dropdown-item" href="html.php">HTML</a>
+                            <a class="dropdown-item" href="css.php">CSS</a>
+                            <a class="dropdown-item" href="versionsstyring.php">Versionsstyring</a>
                             <a class="dropdown-item" href="frameworks.php">Frameworks</a>
                         </div>
                        

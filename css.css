@@ -135,6 +135,8 @@ h5 {
     margin-right: -50px;
 }
 
+
+
 .tekst-i-boks {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -146,6 +148,14 @@ h5 {
     padding-right: 50px;
 }
 
+.teksttyk {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: hero-new, sans-serif;
+    font-weight: 500;   
+    font-style: normal;
+    line-height: 30px;
+}
 
 #smiley {
     display: flex;
@@ -211,14 +221,36 @@ body .indholdcontainer a:hover {
 
 .kildeliste {
     list-style: none;
-    line-height: 20px;
+    line-height: 30px;
     padding-bottom: 30px;
 }
 
+.link-i-boks {
+    color: #b7ab9e;
+}
+
+body .indholdcontainer .boks p a:hover {
+    color: #403b35; 
+}
 
 
+#tal {
+    font-family: hero-new, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
 
+#box-model {
+    width: 90%
+}
 
+#external {
+    width: 90%;
+}
+
+#gridstep {
+    width: 80%;
+}
 
 
 
@@ -244,9 +276,22 @@ body .indholdcontainer a:hover {
     }
     
     #fisk {
-    width: 60%;
+        width: 60%;
     
-}
+    }
+    
+    #box-model {
+        width: 60%;
+    }
+    
+    #external {
+        width: 50%;
+    }
+    
+    #gridstep {
+        width: 40%;
+    }
+
     
    
  }
@@ -286,6 +331,10 @@ body .indholdcontainer a:hover {
     width: 50%;
 }
     
+    #html {
+        width: 60%;
+    }
+    
     .speed {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -301,6 +350,16 @@ body .indholdcontainer a:hover {
         grid-area: fast;
     }
 
+    #box-model {
+        width: 50%;
+    }
     
+     #external {
+        width: 40%;
+    }
+    
+    #gridstep {
+        width: 40%;
+    }
 }
 /*MEDIA 1400PX SLUT*/
