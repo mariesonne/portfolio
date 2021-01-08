@@ -18,8 +18,7 @@
                         </a>
                       
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <a class="dropdown-item" href="#">Internettets historie</a>
-                          <a class="dropdown-item" href="#">Serverside</a>
+                          <a class="dropdown-item" href="serverside.php">Server</a>
                           <a class="dropdown-item" href="#">HTML</a>
                             <a class="dropdown-item" href="#">CSS</a>
                             <a class="dropdown-item" href="#">Versionsstyring</a>

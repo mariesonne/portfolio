@@ -144,7 +144,7 @@
             
             <p class="tekst">Rush er så nem at gå til. Jeg har udelukkende lært at buge Premiere Rush, ved at sætte mig med programmet og bruge det. Det var så lige til, at man ikke har behov for den helt store tutorial. Jeg lærte at bruge Rush lynhurtigt og det hænger nok også sammen med, at jeg lærer bedst, når det er noget jeg synes er mega fedt. Jeg synes videoproduktion er så spændende! </p>
             
-            
+            <a href="https://giphy.com/gifs/Hxvm8nmyF2SAyOkQwL" target=”_blank”>hej</a>
         
     </section>
     

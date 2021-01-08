@@ -82,8 +82,8 @@ blockquote:before, blockquote:after, q:before, q:after {
     font-style: normal;
     font-size: 1.5em;
     text-transform: uppercase;
-    padding-top: 40px;
     padding: 10px 10px;
+    padding-top: 30px;
 }
 
 h4 {
@@ -91,7 +91,7 @@ h4 {
     font-weight: 700;
     font-style: normal;
     text-transform: uppercase;
-    padding-top: 60px;
+    padding-top: 30px;
     border-top: 40px;
     background-color: white;
 }
@@ -181,9 +181,12 @@ h5 {
 
 .henvisning {
    color: #a39687;
+    font-family: hero-new, sans-serif; 
+    font-weight: 200;
+    font-style: normal;
 }
 
-p a .henvisning:hover {
+body .indholdcontainer a:hover {
     text-decoration: none;
     color: #e3dcd4;  
 }
@@ -205,6 +208,15 @@ p a .henvisning:hover {
 #story {
     width: 90%;
 }
+
+.kildeliste {
+    list-style: none;
+    line-height: 20px;
+    padding-bottom: 30px;
+}
+
+
+
 
 
 
