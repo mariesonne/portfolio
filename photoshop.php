@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
      <link rel="stylesheet" href="css.css">
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
 </head>
     
 <body>
@@ -39,6 +40,9 @@
                 <li>
                     <a href="#pers">Personlig reflektion</a>
                 </li>
+                <li>
+                    <a href="#kilder">Kilder</a>
+                </li>
             </ul>
     
         </section>
@@ -58,11 +62,11 @@
             
             <h3 class="h3" id="nondestructive">At arbejde non-destructive i Photoshop</h3>
             
-            <p class="tekst">Det er vigtigt at arbejde non-destructive i Photoshop. Det vi altså sige at vi ikke arbejder destruktivt. Så uanset hvilke og hvor mange ændringer vi laver, så kan vi altid gå tilbage til originalen. På denne måde vil vi sikre os, at vores arbejde ikke går tabt. I stedet for at skulle starte forfra, kan vi blot slette den ændring vi ikke ønsker. </p>
+            <p class="tekst">Det er vigtigt at arbejde non-destructive i Photoshop. Det vi altså sige at vi ikke arbejder destruktivt. Så uanset hvilke og hvor mange ændringer vi laver, så kan vi altid gå tilbage til originalen. På denne måde vil vi sikre os, at vores arbejde ikke går tabt. I stedet for at skulle starte forfra, kan vi blot slette den ændring vi ikke ønsker. (Christensen, 2016) </p>
             
             <p class="tekst">En start kan være at dublere vores originale billede og slukke for det. Vi skal aldrig arbejde i det originale lag, men kun på separate lag. Dog skal man være opmærksom på, at hver gang man dublere laget dublere man også størrelsen på PSD-filen. Derfor kan det være smart at bruge masker. På denne måde, kan vi fjerne dele af et lag og tilføje igen, hvis vi har fortrudt. </p>
             
-            <p class="tekst">Når vi ønsker at justere farve, lystyrke eller lignende ændringer, er det en god ide at gøre brug af adjustments layers. Ved at gøre dette, har hver ændring sit eget lag og vi har derfor mulighed for at slette en ændring, som vi måske har fortrudt. Med adjustments layers kan vi også til hver en tid gå tilbage og ændre det. Det kunne f.eks. være hvis vi havde givet lidt for meget kontrast og ønskede at justere dette. </p>
+            <p class="tekst">Når vi ønsker at justere farve, lystyrke eller lignende ændringer, er det en god ide at gøre brug af adjustments layers. (ibid.) Ved at gøre dette, har hver ændring sit eget lag og vi har derfor mulighed for at slette en ændring, som vi måske har fortrudt. Med adjustments layers kan vi også til hver en tid gå tilbage og ændre det. Det kunne f.eks. være hvis vi havde givet lidt for meget kontrast og ønskede at justere dette. </p>
             
             <iframe src="https://giphy.com/embed/z1lQ1kew8DNlHBqpaD" width="480" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/z1lQ1kew8DNlHBqpaD"></a></p>
             
@@ -159,6 +163,14 @@
             
             <p class="tekst">Jeg har brugt Photoshop I mange år. Da jeg startede med at bruge det, vidste jeg intet om hvordan det fungerede. Jeg har hovedsageligt lært Photoshop at kende ved at se Youtube-videoer. Derudover har jeg bare forsøgt mig frem. Der er så mange funktioner og muligheder i Photoshop, så jeg lærer stadig nye ting. Jeg elsker at arbejde i Photoshop og opdage nye muligheder for at skabe flotte billeder. </p>
             
+            <h3 class="h3" id="kilder">Kilder</h3>
+        
+            <ul class="kildeliste">
+                <li>  
+                    Christensen, K. (19. januar 2016). How To Work Non-Destructively In Photoshop. Hentet fra redbranch media:
+                    <a class="henvisning" href="https://redbranchmedia.com/blog/design-101-how-to-work-non-destructively-in-photoshop/" target="_blank">https://redbranchmedia.com/blog/design-101-how-to-work-non-destructively-in-photoshop/</a>
+                </li>
+            </ul>
         
         </section>
          

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
      <link rel="stylesheet" href="css.css">
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
 </head>
     
 <body>
@@ -35,6 +36,9 @@
                 </li>
                 <li>
                     <a href="#pers">Personlig reflektion</a>
+                </li>
+                <li>
+                    <a href="#kilder">Kilder</a>
                 </li>
             </ul>
     
@@ -144,7 +148,16 @@
             
             <p class="tekst">Rush er så nem at gå til. Jeg har udelukkende lært at buge Premiere Rush, ved at sætte mig med programmet og bruge det. Det var så lige til, at man ikke har behov for den helt store tutorial. Jeg lærte at bruge Rush lynhurtigt og det hænger nok også sammen med, at jeg lærer bedst, når det er noget jeg synes er mega fedt. Jeg synes videoproduktion er så spændende! </p>
             
-            <a href="https://giphy.com/gifs/Hxvm8nmyF2SAyOkQwL" target=”_blank”>hej</a>
+            <h3 class="h3" id="kilder">Kilder</h3>
+        
+            <ul class="kildeliste">
+                <li>   
+                    <a class="henvisning" href="pdf/bilag2.1.pdf" target="_blank">Bilag 2.1</a>
+                </li>
+                <li>
+                    Softworld - DK. (22. februar 2019). Hvad kan Premiere Rush – Det nye videosoftware fra Adobe? Hentet fra Softworld: <a class="henvisning" href="https://blog.softworld.dk/hvad-kan-adobe-premiere-rush" target="_blank">https://blog.softworld.dk/hvad-kan-adobe-premiere-rush</a>
+                </li>
+            </ul>
         
     </section>
     

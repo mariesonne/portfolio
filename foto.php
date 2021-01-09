@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
      <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="footer.css">
     
 </head>
     
@@ -50,7 +51,7 @@
        
         <p class="tekst">Før vi begynder at fotografere, er det en god ide at vide hvordan vores udstyr er opbygget. Som mange andre, så bruger jeg et spejlreflekskamera og det er derfor relevant at se på lige netop dette kamera. </p>
         
-        <img src="billeder/anatomi.png">
+        <img src="billeder/anatomi.png" width="95%">
         
         <p class="tekst">På billedet ses et kamerahus med et objektiv på. Objektivet er opbygget af linser. Linserne har forskellige udformninger og de leder lyset gennem objektivet med den pågældende brændvidde. I objektivet sidder blænden også. </p>
         
@@ -81,7 +82,7 @@
             
             <section id="lukkertid">
             
-                <img src="billeder/lukkertid.png">
+                <img src="billeder/lukkertid.png" width="90%">
                 
             </section>
             
@@ -103,7 +104,7 @@
             
             <p class="tekst-i-boks">Her kan man se en stor blændeåbning. Her kommer der meget mere lys ind til sensoren, end vi så med det den lille blændeåbning. Dybdeskarpheden er lille. Det vil sige at baggrunden af motivet bliver sløret. På den her måde kan man rette seerens fokus ind på motivet, da øjet først ser det der er skarpt.</p>
             
-            <img src="billeder/dybdeskarphed.png">
+            <img src="billeder/dybdeskarphed.png" width="90%">
             
             <p class="tekst-i-boks">Det første billede viser en stor blændeåbning og dermed en lille dybdeskarphed. Vi har her fokus på den lille panda. </p>
             
@@ -117,7 +118,7 @@
             
             <p class="tekst-i-boks">Det anbefales ofte, at du generelt bør bruge så lave ISO-værdi som muligt. Her ses et billede der er taget med en lav ISO og et der er taget med en høj ISO. </p>
             
-            <img src="billeder/iso.png">
+            <img src="billeder/iso.png" width="90%">
 
     </section>
         
@@ -125,7 +126,7 @@
         
         <p class="tekst">Histogrammet afspejler præcist, hvordan de forskellige lysstyrker er repræsenteret i et billede. På sensoren modtager hver pixel en mængde lys defineres i en styrke fra 0 til 255. Lys Informationerne fordeles i histogrammet, hvor værdien 0, der svarer til sort, er i venstre side, mens 255, som er hvidt, er i den højre side. Søjlerne viser hvor mange pixels der har lige den værdi. </p>
         
-        <img src="billeder/histogram.png">
+        <img src="billeder/histogram.png" width="90%">
         
         <p class="tekst">Her kan først ses et undereksponeret billede, hvor man kan se at søjlerne trækker mod 0 – altså de sorte og mørke toner. Der er intet hvidt i billedet. </p>
         

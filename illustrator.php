@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
      <link rel="stylesheet" href="css.css">
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
 </head>
     
 <body>
@@ -141,35 +142,44 @@
             
                  <p class="tekst">Et super vigtig tool er Shape Builder tool. Man kan med dette værktøj sætte figurer sammen og skabe helt nye figurer. </p>
             
-                
-            <h3 class="h3" id="tools">Ikoner</h3>
-            
-                <p class="tekst">Ikoner er én af de mange ting man bruger Illustrator til. En af vores første opgaver var at lave en række ikoner. Jeg havde haft meget besvær med at bruge clipping masks, også selvom jeg kender det fra Photoshop. Så jeg besluttede, at det var noget jeg skulle gøre brug af, da jeg lavede mine ikoner – og det er denne måde jeg lærer funktioner at kende i programmer som Illustrator.</p>
-            
-                <h4>Ikon-sæt</h4>
-            
-                <section class="ikoner">
-                    
-                    <img src="billeder/ikon1.png">
-                    
-                    <img src="billeder/ikon2.png">
-                    
-                    <img src="billeder/ikon3.png">
-                    
-                    <img src="billeder/ikon4.png">
-                    
-                </section>
-            
-            
             <section class="boks">
+            
+                <h3 class="h3" id="tools">Ikoner</h3>
+
+                    <p class="tekst-i-boks">Ikoner er én af de mange ting man bruger Illustrator til. En af vores første opgaver var at lave en række ikoner. Jeg havde haft meget besvær med at bruge clipping masks, også selvom jeg kender det fra Photoshop. Så jeg besluttede, at det var noget jeg skulle gøre brug af, da jeg lavede mine ikoner – og det er denne måde jeg lærer funktioner at kende i programmer som Illustrator.</p>
+
+                    <h4>Ikon-sæt</h4>
+
+                    <div class="ikoner">
+
+                        <img id="ikon" src="billeder/ikon1.png" >
+
+                        <img id="ikon" src="billeder/ikon2.png" >
+
+                        <img id="ikon" src="billeder/ikon3.png" >
+
+                        <img id="ikon" src="billeder/ikon4.png" >
+
+                    </div>
+            
+            </section>
+            
+            
+            
         
                 <h3 class="h3" id="pers">Personlig reflektion</h3>    
 
-                <p class="tekst-i-boks">Jeg havde ikke arbejdet med Illustrator før vi startede på uddannelsen. Jeg har dog brugt Photoshop i mange år, hvilket på nogle punkter har givet mig fordele. Jeg kendte f.eks. godt de fleste værktøjer, da nogle går igen fra Photoshop. Der har dog også været nogle udfordringer i forhold til, at nogle tools eller genveje fungerer anderledes end i Photoshop. Jeg har lært illustrator at kende ved at bruge det igen og igen. Derudover har jeg lært meget af at se forskellige YouTube tutorials. Jeg lærer bedst af dem, hvis de forklarer om noget jeg har brug for at vide lige nu og her. Det vil altså sige, at når jeg sidder og laver noget i Illustrator og jeg støder på noget, jeg gerne vil lave, men ikke kan finde ud af, så ser jeg en YouTube video om det. Jeg synes personligt, at Illustrator er et af de fedeste programmer vi arbejder med – det er lige ved at den slår Photoshop, som er min personlige favorit. </p>
+                <p class="tekst">Jeg havde ikke arbejdet med Illustrator før vi startede på uddannelsen. Jeg har dog brugt Photoshop i mange år, hvilket på nogle punkter har givet mig fordele. Jeg kendte f.eks. godt de fleste værktøjer, da nogle går igen fra Photoshop. Der har dog også været nogle udfordringer i forhold til, at nogle tools eller genveje fungerer anderledes end i Photoshop. Jeg har lært illustrator at kende ved at bruge det igen og igen. Derudover har jeg lært meget af at se forskellige YouTube tutorials. Jeg lærer bedst af dem, hvis de forklarer om noget jeg har brug for at vide lige nu og her. Det vil altså sige, at når jeg sidder og laver noget i Illustrator og jeg støder på noget, jeg gerne vil lave, men ikke kan finde ud af, så ser jeg en YouTube video om det. Jeg synes personligt, at Illustrator er et af de fedeste programmer vi arbejder med – det er lige ved at den slår Photoshop, som er min personlige favorit. </p>
                 
-            </section>
+            
             
             <h3 class="h3" id="kilder">Kilder</h3>
+        
+            <ul class="kildeliste">
+                <li>
+                    Softworld-DK. (19. April 2016). Hvad kan og bør Adobe Illustrator bruges til? Hentet fra Softworld: <a class="henvisning" href="https://blog.softworld.dk/hvad-kan-og-boer-adobe-illustrator-bruges-til " target="_blank">https://blog.softworld.dk/hvad-kan-og-boer-adobe-illustrator-bruges-til </a> 
+                </li>
+            </ul>
 
         </section>
     

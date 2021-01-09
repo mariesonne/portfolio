@@ -209,6 +209,11 @@ body .indholdcontainer a:hover {
 
 .ikoner {
     padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+#ikon {
+    width: 95%;
 }
 
 .giphy-embed {
@@ -257,6 +262,8 @@ body .indholdcontainer .boks p a:hover {
 }
 
 
+
+
 /*MEDIA 900PX START*/
 
 @media (min-width:700px) {
@@ -298,6 +305,10 @@ body .indholdcontainer .boks p a:hover {
     #lapper {
         width: 50%;
     }   
+    
+        #ikon {
+        width: 40%;
+    }
 
     
    
@@ -339,7 +350,7 @@ body .indholdcontainer .boks p a:hover {
 }
     
     #html {
-        width: 60%;
+        width: 40%;
     }
     
     .speed {
@@ -372,5 +383,12 @@ body .indholdcontainer .boks p a:hover {
     #lapper {
         width: 50%;
     }   
+    
+    #ikon {
+        width: 20%;
+    }
+      
+   
+    
 }
 /*MEDIA 1400PX SLUT*/
