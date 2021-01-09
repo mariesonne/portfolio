@@ -252,6 +252,9 @@ body .indholdcontainer .boks p a:hover {
     width: 80%;
 }
 
+#lapper {
+    width: 100%;
+}
 
 
 /*MEDIA 900PX START*/
@@ -291,6 +294,10 @@ body .indholdcontainer .boks p a:hover {
     #gridstep {
         width: 40%;
     }
+    
+    #lapper {
+        width: 50%;
+    }   
 
     
    
@@ -361,5 +368,9 @@ body .indholdcontainer .boks p a:hover {
     #gridstep {
         width: 40%;
     }
+    
+    #lapper {
+        width: 50%;
+    }   
 }
 /*MEDIA 1400PX SLUT*/

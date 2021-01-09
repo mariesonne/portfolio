@@ -23,6 +23,7 @@
                             <a class="dropdown-item" href="css.php">CSS</a>
                             <a class="dropdown-item" href="versionsstyring.php">Versionsstyring</a>
                             <a class="dropdown-item" href="frameworks.php">Frameworks</a>
+                            <a class="dropdown-item" href="informationsarkitektur.php">Informationsarkitektur</a>
                         </div>
                        
                     </li>

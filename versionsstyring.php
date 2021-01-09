@@ -64,33 +64,35 @@
         
             <h3 class="h3" id="github">GitHub</h3>
         
-            <p class="tekst"></p>
-            <p class="tekst"></p>
-            <p class="tekst"></p>
-            <p class="tekst"></p>
-            <p class="tekst"></p>
+            <p class="tekst">GitHub er en webplatform der tillader at man kan oprette Git-repositories.(ibid.) Github sporer de ændringer, du foretager i filer, så du har en oversigt over, hvad der er blevet gjort, og du kan vende tilbage til specifikke versioner, hvis du nogensinde har brug for det. Github gør det også lettere at samarbejde om en hjemmeside, så ændringer fra flere personer kan flettes sammen.</p>
+        
+            <p class="tekst">GitHub er lidt en form for socialt medie for webudviklere. Man kan nemlig dele sine koder. Derudover bruges GitHub også som et portfolio, som man kan vise frem til jobsamtaler. </p>
+        
+            <section class="boks">
+        
+                <h4>Vigtige begreber</h4>    
+
+                <p class="tekst-i-boks"><span class="teksttyk">REPOSITORY:</span> også kaldet "repo". Det er en samling af filer, som en projektmappe</p>
+                <p class="tekst-i-boks"><span class="teksttyk">BRANCH:</span> En forgrening, en parallel version i dit repo, men berører ikke master</p>
+                <p class="tekst-i-boks"><span class="teksttyk">MASTER BRANCH:</span>Hovedforløbet, den der gælder</p>
+                <p class="tekst-i-boks"><span class="teksttyk">COMMIT:</span>En revision, som at gemme, men med mulighed for at finde tilbage – man kan også kalde det en milepæl</p>
+                <p class="tekst-i-boks"><span class="teksttyk">PULL REQUEST:</span>Et forslag til en ny udgave (rettelser)</p>
+                <p class="tekst-i-boks"><span class="teksttyk">DIFF:</span>Difference, en forskel mellem to commits</p>
+                <p class="tekst-i-boks"><span class="teksttyk">MERGE:</span>Når ændringer i en branch samles med en anden (eks. gennem en pull request)</p>
+                <p class="tekst-i-boks"><span class="teksttyk">PULL:</span>Når du henter ændringer og merger dem</p>
                 
-            
-    
+            </section>
             
             <h3 class="h3" id="pers">Personlig reflektion</h3>  
             
         
-            <p class="tekst">Jeg har det lidt på samme måde med CSS, som jeg har det med HTML. Jeg lærer det kun ved at bruge det. Når jeg støder på nogle problemer eller noget som jeg ikke ved hvordan jeg skal gennemføre, så er Google og YouTube altid en god hjælp. Dog skal man være opmærksom på datoen, når man får hjælp fra nettet. Man skal være sikker på, at de også bruger CSS 3. </p>
+            <p class="tekst">Jeg synes at GitHub var meget svært at lære. Jeg havde svært ved at forstå hvordan det fungerede. Men da jeg begyndte at bruge GitHub sammen med mine projekter, så fik jeg ret hurtigt styr på det. Til denne hjemmeside med mit læringsportfolio har jeg allerede haft brug for at hente tidligere versioner ned et par gange. Så jeg laver helt så mange commits som muligt.  </p>
         
            <h3 class="h3" id="kilder">Kilder</h3>
         
             <ul class="kildeliste">
                 <li>   
-                    <a class="henvisning" href="pdf/bilag1.4.pdf" target="_blank">Bilag 1.4</a>
-                </li>
-                <br>
-                <li>   
-                    <a class="henvisning" href="pdf/bilag1.5.pdf" target="_blank">Bilag 1.5</a>
-                </li>
-                <br>
-                <li>
-                    CSS Layout - The position Property. (u.d.). Hentet december 2020 fra W3schools: <a class="henvisning" href="https://www.w3schools.com/css/css_positioning.asp" target="_blank">https://www.w3schools.com/css/css_positioning.asp</a> 
+                    <a class="henvisning" href="pdf/bilag1.6.pdf" target="_blank">Bilag 1.6</a>
                 </li>
             </ul>
         
