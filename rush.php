@@ -56,7 +56,7 @@
             
             <h3 class="h3" id="video">Videoproduktion</h3>
             
-            <p class="tekst">Vi bruger først Premiere Rush i slutningen af processen når producere videoer. Vi kan dele videoproduktion op i tre processer. (bilag quick) Pre-production: altså planlægning af optagelser, production: det er her optagelserne finder sted og post-production: redigering af optagelserne.</p>
+            <p class="tekst">Vi bruger først Premiere Rush i slutningen af processen når producere videoer. Vi kan dele videoproduktion op i tre processer. (bilag 2.1) Pre-production: altså planlægning af optagelser, production: det er her optagelserne finder sted og post-production: redigering af optagelserne.</p>
             
             <br><br>
             

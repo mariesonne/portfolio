@@ -39,9 +39,9 @@
                           <a class="dropdown-item" href="illustrator.php">Illustrator</a>
                           <a class="dropdown-item" href="photoshop.php">Photoshop</a>
                           <a class="dropdown-item" href="rush.php">Premiere Rush</a>
-                            <a class="dropdown-item" href="#">Farver</a>
-                            <a class="dropdown-item" href="#">Typografi</a>
-                            <a class="dropdown-item" href="#">Gestalove</a>
+                            <a class="dropdown-item" href="farver.php">Farver</a>
+                            <a class="dropdown-item" href="typografi.php">Typografi</a>
+                            <a class="dropdown-item" href="gestalt.php">Gestalove</a>
                             <a class="dropdown-item" href="#">informationsarkitektur</a>
                         </div>
                         
