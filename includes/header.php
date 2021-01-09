@@ -42,7 +42,6 @@
                             <a class="dropdown-item" href="farver.php">Farver</a>
                             <a class="dropdown-item" href="typografi.php">Typografi</a>
                             <a class="dropdown-item" href="gestalt.php">Gestalove</a>
-                            <a class="dropdown-item" href="#">informationsarkitektur</a>
                         </div>
                         
                     </li>
@@ -55,12 +54,12 @@
                       
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                           <a class="dropdown-item" href="grund-kommunikation.php">Grundlæggende kommunikation</a>
-                          <a class="dropdown-item" href="#">Tekstproduktion</a>
+                          <a class="dropdown-item" href="tekstproduktion.php">Tekstproduktion</a>
                           <a class="dropdown-item" href="praesentationteknik.php">Præsentationsteknink</a>
-                            <a class="dropdown-item" href="#">Business Model Canvas</a>
-                            <a class="dropdown-item" href="#">Ophavsret og licenseringsmetoder</a>
-                            <a class="dropdown-item" href="#">Kvantitativ og kvalitativ emperi</a>
-                            <a class="dropdown-item" href="#">Usability testmetoder</a>
+                            <a class="dropdown-item" href="bmc.php">Business Model Canvas</a>
+                            <a class="dropdown-item" href="licens.php">Ophavsret og licenseringsmetoder</a>
+                            <a class="dropdown-item" href="kvankval.php">Kvantitativ og kvalitativ emperi</a>
+                            <a class="dropdown-item" href="usability.php">Usability testmetoder</a>
                         </div>
       
                     </li>
@@ -72,7 +71,7 @@
                         </a>
                       
                         <div class="dropdown-menu" id="projekt" aria-labelledby="navbarDropdownMenuLink">
-                          <a class="dropdown-item" href="#">Designthinking</a>
+                          <a class="dropdown-item" href="design.php">Designthinking</a>
                           <a class="dropdown-item" href="#">HTML og CSS workshop</a>
                           <a class="dropdown-item" href="#">Photoshop / <span id="nedryk">Illustrator workshop</span></a>
                             <a class="dropdown-item" href="#">Onepage</a>

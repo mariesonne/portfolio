@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
       <link rel="stylesheet" href="header.css">
      <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="footer.css">
   
 </head>
     
@@ -42,6 +43,9 @@
                 <a href="#det-samf-para">Det samfundsvidenskabelige paradigme</a>
             </li>
             <li>
+                <a href="#pers">Personlig reflektion</a>
+            </li>
+            <li>
                 <a href="#kilder">Kilder</a>
             </li>
         </ul>
@@ -56,7 +60,7 @@
         
             <p class="tekst-i-boks">Som multimediedesigner er det væsentligt at kunne formidle og kommunikere. 
 
-            <br><br><span id="citat">Multimedier er medier, der samtidigt gør brug af flere forskellige udtrykssystemer – såsom tekst, levende billeder, stillbilleder, animation, grafik og lyd (tale, musik, lydeffekter) – og hvor disse udtryksformer er integreret i og styret af en digital computer eller et digitalt miljø”.</span> (Bilag ?1) <br><br>
+            <br><br><span id="citat">Multimedier er medier, der samtidigt gør brug af flere forskellige udtrykssystemer – såsom tekst, levende billeder, stillbilleder, animation, grafik og lyd (tale, musik, lydeffekter) – og hvor disse udtryksformer er integreret i og styret af en digital computer eller et digitalt miljø”.</span> (Bilag 3.1) <br><br>
 
             Det vil altså sige en multimediedesigner bruger kommunikation til en stor del af deres arbejde. Det kan for eksempel være når helt almindelig tekst skal produceres. Derudover bruges kommunikation også igennem design. Det kan f.eks. være et design på en hjemmeside. Farver, billeder osv. kommunikere mere end vi lige tror. Derudover bruger multimediedesigneren også kommunikation når han eller hun skal pitche ideer og forslag. 
             </p>
@@ -71,7 +75,7 @@
         
         <h4>Verbal og nonverbal kommunikation</h4>
             
-        <p class="tekst">Som sagt er kommunikation meget mere end bare det vi siger. Verbal kommunikation dækker over det vi siger. (bilag ?1) Nonverbal kommunikation er derimod det vi ikke siger. Det dækker altså over mimik, kropssprog, toneleje osv. (ibid.) Den nonverbale sender altså meddelelser om hvor det verbale skal forstås. (ibid.)</p>
+        <p class="tekst">Som sagt er kommunikation meget mere end bare det vi siger. Verbal kommunikation dækker over det vi siger. (bilag 3.1) Nonverbal kommunikation er derimod det vi ikke siger. Det dækker altså over mimik, kropssprog, toneleje osv. (ibid.) Den nonverbale sender altså meddelelser om hvor det verbale skal forstås. (ibid.)</p>
         
         <br><br>
         
@@ -175,13 +179,13 @@
             
             <br><br>
             
-            <h4>Kanyleteorien</h4>
+            <h4 class="h4boks">Kanyleteorien</h4>
             
             <p class="tekst-i-boks">Kanyleteorien er formuleret i 1927 af Harold D. Lasswell. Teorien påpeger hvor stor en effekt medierne har på os som mennesker. (ibid.) Hvis vi ser mange grove voldsfilm, så vil de påvirke vores måde at være på. Vi vil dermed få en mere voldelig tankegang og volden i vores samfund vil stige. (ibid.) Man kan derfor styre et helt samfund ved hjælp af medier. Det er også derfor teorien har sit navn, fordi man metaforisk set kan sprøjte ideer, tanker og holdninger ind i modtageren. </p>
             
             <br><br>
             
-            <h4>S-R-Modellen og S-O-R-modellen</h4>
+            <h4 class="h4boks">S-R-Modellen og S-O-R-modellen</h4>
             
             <p class="tekst-i-boks">S-R-modellen bygger på samme antagelse om, at mennesket kan styres igennem medier. (ibid.) S står for stimuli og R står for respons. Respons henviser til efter man har afsendt sit budskab. Jo større budskabet er jo kraftigere respons, vil man få. </p>
             
@@ -189,7 +193,7 @@
             
             <br><br>
             
-            <h4>Lasswells formel</h4>
+            <h4 class="h4boks">Lasswells formel</h4>
             
             <p class="tekst-i-boks">Lasswell er kendt for sin berømte replik: </p>
             
@@ -205,18 +209,28 @@
                
         </section>
         
+        <h3 class="h3" id="pers">Personlig reflektion</h3>
+        
         <p class="tekst">Før vi startede undervisning i kommunikation, havde jeg allerede kendskab til flere af begreberne og modellerne. Men jeg har nu bedre forståelse for hvordan de kan bruges som multimediedesigner og hvorfor de er vigtige. Jeg er kommet her til ved at læse om modellerne og teorierne i bogen ”Kommunikation i multimediedesign”. Bogen har altså multimediedesigner-briller på og bruger eksempler som er relevante for multimediedesignere. </p>
         
         <h3 class="h3" id="kilder">Kilder</h3>
         
-        <ul class="kilder">
+        <ul class="kildeliste">
+             <li>   
+                    <a class="henvisning" href="pdf/bilag4.1.pdf" target="_blank">Bilag 4.1</a>
+                </li>
+                <br>
             <li>Andersen, H., &amp; Jørnø, M. L. (augus 2013). I Kommunikation i praksis (s. 15-25). Samfundslitteratur.</li>
+            <br>
             <li>Busch, A. (2015). Grundlæggende kommunikationsteori. I Kommunikation i Multimediedesign (s. 67-83). Hans Reitzels Forlag.</li>
-            <li>Slots‐ og Kulturstyrelsen. (2017). AVIS/PRINT 2017. Hentet December 2020 fra Mediernes Udvikling i Danmark: <a href="https://mediernesudvikling.slks.dk/2017/avisprint/">https://mediernesudvikling.slks.dk/2017/avisprint/</a></li>
+            <br>
+            <li>Slots‐ og Kulturstyrelsen. (2017). AVIS/PRINT 2017. Hentet December 2020 fra Mediernes Udvikling i Danmark: <a class="henvisning" href="https://mediernesudvikling.slks.dk/2017/avisprint/">https://mediernesudvikling.slks.dk/2017/avisprint/</a></li>
         
         </ul>
 
     </section>
+        
+        <?php include('includes/footer.php'); ?>     
     
        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>

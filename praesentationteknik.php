@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
       <link rel="stylesheet" href="header.css">
      <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="footer.css">
   
 </head>
     
@@ -32,22 +33,19 @@
             </li>
             
             <li>
-                <a href="#skabdia">Skab dialog</a>
+                <a href="#retorik">Retorik</a>
             </li>
             <li>
-                <a href="#kenddig">Kend dig selv</a>
+                <a href="#øv">Øv dig!</a>
             </li>
             <li>
-                <a href="#malgruppe">Målgruppen</a>
+                <a href="#pp">Power Point</a>
             </li>
             <li>
-                <a href="#op-struktur">Oplægsstruktur</a>
+                <a href="#pers">Personlig reflektion</a>
             </li>
             <li>
-                <a href="#det-samf-para">Øv dig</a>
-            </li>
-            <li>
-                <a href="#kilder">PowerPoint</a>
+                <a href="#kilder">Kilder</a>
             </li>
         </ul>
         
@@ -131,7 +129,7 @@
         
         <section class="boks">
         
-            <h4>Fisken</h4>    
+            <h4 class="h4boks">Fisken</h4>    
         
             <p class="tekst-i-boks">Fiske-modellen er en klassisk og simpel måde at opdele sin præsentation. 
             </p>
@@ -151,7 +149,101 @@
             
         </section>
         
+        <h3 class="h3" id="retorik">Retorik</h3>
+        
+        <p class="tekst">Retorik er oprindeligt talekunst. Det er et meget stort og anerkendt fagområde, som man kan bruge til at forberede og fremfører en tale. Tale skal her forstås som oplæg eller præsentation. Der er fem faser eller trin. (ibid.)</p>
+        
+        <h4>Inventio</h4>
+        
+        <p class="tekst">Det er her man opfinder og forbereder det stof der skal præsenteres. Det er også her man finder de billeder, teorier og eksempler man har brug for. Man overvejer her hvad præsentationen skal handle om og hvad formålet er med dette. (ibid.) Her kan man kigge på 3 talekategorier:</p>
+        
+        
+        <p class="tekst"><span class="teksttyk">Festtalen </span>der har formålet at hylde eller dadle, med fokus på nuet. </p>
+        <p class="tekst"><span class="teksttyk">Den politiske tale </span>skruer fremad med formålet at bringe fremtidige perspektiver i spil.</p>
+        <p class="tekst"><span class="teksttyk">Den juridiske tale </span>skruer bagud og vurdere om noget er rigtigt eller forkert. </p>
+    
+        <p class="tekst">Man skal altså vurdere hvad man vil opnå med præsentationen. (ibid.)</p>
+        
+        <h4>Disposito</h4>
+        
+        <p class="tekst">Det er her man organiserer sit oplæg. Man skal udvælge de argumenter og forhold der skal frembringe budskabet. Man skal få delene af præsentationen struktureret i en god og logisk rækkefølge. (ibid.) I klassisk retorik opdeler man oplægget i 4:</p>
+        
+        <p class="tekst"><span class="teksttyk">Exordium  </span>som er indledningen </p>
+        <p class="tekst"><span class="teksttyk">Narratio  </span>er sagsfremstillingen, fortællingen – den gode historie</p>
+        <p class="tekst"><span class="teksttyk">Argumentatio  </span>er hvor man skal bevise. Man kan trække på Toulmins argumentationsteori om påstand, belæg og hjemmel (ibid.) </p>
+        
+        <h4>Elocutio </h4>
+    
+        <p class="tekst">Man skal her vurdere hvilket sprog og hvilken stil man vil anvende. Hvilke appelformer vil man anvende og hvordan? Udover pahtos, ethos og logos kan man også overveje fire forhold:</p>
+        
+        <p class="tekst"><span class="teksttyk">Aptum </span>hensigtmæssigt, relevant, tilpasset modtagers forhåndsvisning</p>
+        <p class="tekst"><span class="teksttyk">Puritas </span>sproglig korrekt</p>
+        <p class="tekst"><span class="teksttyk">Perspicuitas </span>klart og forståeligt</p>
+        <p class="tekst"><span class="teksttyk">Ornatus </span>levende, varieret, afstemt stil</p>
+        
+        <h4>Memoria </h4>
+        
+        <p class="tekst">Man skal øve sig. Man skal lærer talen udenad så man kan fokusere på hvordan man vil træde frem.</p>
+        
+        <h4>Actio</h4>
+        
+        <p class="tekst">Det er selve præsentationen. </p>
+        
+        
+        <h3 class="h3" id="øv">Øv dig</h3>
+        
+        <p class="tekst">Når indholdet er helt på plads, skal man øve sig højlydt. (ibid.) Det vil gøre det lettere at huske hvad man skal sige. Det er også oftest først når man begynder at formulere sig højt, at man opdager eventuelle huller og fejl. </p>
+        
+        <h4>Timing</h4>
+        
+        <p class="tekst">Som regel har man ikke lang tid til sin præsentation. Derfor skal man øve sig i at bruge tiden rigtigt. Det er vigtigt at man øver stoffet igennem, for at kunne vurdere hvor lang tid oplægget tager. Det skyldes at man taler langsommere når man forklarer end når man læser i et par noter. (ibid.) Man skal passe på med at tale for hurtigt. Pauser er naturlige og er er gode for både afsenderen, som kan nå at tænke undervejs, men også for modtageren, som kan nå at følge med. </p>
+        
+        <h4>Stemme og krop</h4>
+        
+        <p class="tekst">Når man øver sig, skal man også have fokus på hvordan man snakker og hvordan man står. Her er nogle ting, man kan tænke over, når man øver sig til en præsentation. </p>
+        
+        <p class="tekst">Man skal have front mod tilhørerne, når man henvender sig - Man skal ikke tale med ryggen til.</p>
+        
+        <p class="tekst">Man skal trække vejret dybt og folde sin stemme ud – man skal tale højt og tydeligt</p>
+        
+        <p class="tekst">Man skal holde naturlige pauser, det kan evt. være lige før og efter en væsentlig pointe</p>
+        
+        
+        <p class="tekst">Man skal lytte til hvad man selv siger</p>
+        
+        <p class="tekst">Man skal ikke gå hvileløst rundt, det er bedre at stå med begge fødder plantet i gulvet</p>
+        
+        <p class="tekst">Man skal lade vær med at fumle med ting, så ingen bidden negle eller legen med kuglepen</p>
+        
+        <p class="tekst">Notater skal skrives på stikordskort. Det skal være kraftigere papir, da det giver et dårligt indtryk at komme med et krøllet stykke papir. </p>
+        
+        <p class="tekst">Man skal undgå ”øh”</p>
+        
+        <p class="tekst">Tre dybe indånderinger inden man går på. (ibid.)</p>
+        
+        <h3 class="h3" id="pp">Powerpoint</h3>
+        
+        <p class="tekst">PowerPoint er et rigtig godt værktøj, hvis man bruger det rigtigt. Man skal passe på med at bruge det som en huskeliste. (ibid.) Hvis der er mange ord, begynder tilskuerne at læse foran og nogle gange stopper helt med at lytte. I stedet for at lave huskelister, kan man bruge PowerPoint-slides til at illustrerer, at det man siger er rigtigt. Det kan man gøre med eksempler eller billeder. </p>
+        
+        
+        <h3 class="h3" id="pers">Personlig reflektion</h3>
+        
+        <p class="tekst">At præsentere, er noget man aldrig kan stoppe med at øve sig på. Jeg lærer det bedst, ved at gøre det. For at blive bedre til at præsentere, så tænker jeg teknikkerne ind over når jeg f.eks. har en fremlæggelse i skolen eller lignende. Det er denne måde jeg lærer præsentationsteknikkerne bedst. </p>
+        
+        <h3 class="h3" id="kilder">Kilder</h3>
+        
+            <ul class="kildeliste">
+                <li>   
+                    Busch, A. (2015). Præsentation. I Kommunikation i multimediedesign (s. 315-330). Hans Reitzels Forlag.
+
+
+                </li>
+                
+            </ul>
+        
     </section>
+    
+    <?php include('includes/footer.php'); ?>
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>

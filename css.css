@@ -402,6 +402,22 @@ body .indholdcontainer .boks p a:hover {
 }
 
 
+#blaatekst {
+    color: skyblue;
+}
+
+#grontekst {
+    color: green;
+}
+
+#gultekst {
+    color: yellow;
+}
+
+#rodtekst {
+    color: crimson;
+}
+
 
 /*MEDIA 900PX START*/
 
