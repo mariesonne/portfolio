@@ -19,6 +19,8 @@
         
     </header>
     
+     <a name="top"></a>
+    
     <h2 id="h2">Typografi</h2>
     
     <section class="indholdoversigt">
@@ -153,6 +155,7 @@
                 </li>
             </ul>
         
+            <a class="henvisning" href="#top">Tilbage til toppen.</a>
     </section>
     
         <?php include('includes/footer.php'); ?>

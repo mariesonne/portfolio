@@ -19,6 +19,8 @@
         
     </header>
     
+     <a name="top"></a>
+    
     
     <h2 id="h2">Grundlæggende kommunikation</h2>
     
@@ -227,6 +229,8 @@
             <li>Slots‐ og Kulturstyrelsen. (2017). AVIS/PRINT 2017. Hentet December 2020 fra Mediernes Udvikling i Danmark: <a class="henvisning" href="https://mediernesudvikling.slks.dk/2017/avisprint/">https://mediernesudvikling.slks.dk/2017/avisprint/</a></li>
         
         </ul>
+        
+        <a class="henvisning" href="#top">Tilbage til toppen.</a>
 
     </section>
         

@@ -27,55 +27,59 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 }
 
-
 /*  END RESET */
 
-
-
-
-#h2 {
-    font-family: novecento-sans-wide, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 2em;
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-
-#indholdpaasiden {
-    font-family: novecento-sans-wide, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    text-transform: uppercase;
-    
-}
-
-.indholdoversigt {
-    text-align: center;
-    line-height: 40px;
-    padding-bottom: 30px;
-}
-
-.indholdoversigt ul li a {
-    text-decoration: none;
-    color: grey;
-}
-
-.indholdoversigt ul li a:hover {
-    color: black;
-}
-
+/*Dette er en container til mit indhold*/
 .indholdcontainer {
         padding-left: 50px;
         padding-right: 50px;
         text-align: center;
     }
 
+
+
+/*Dette er alle h2-overskrifter. Jeg har valgt et typeface fra Adobe Font*/
+#h2 {
+    font-family: novecento-sans-wide, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2em;
+    text-align: center; /*Teksten står i midten*/
+    text-transform: uppercase; /* Laver store bogstaver*/
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*Dette er en container til min indholdsoversigt*/
+.indholdoversigt {
+    text-align: center;
+    line-height: 40px;
+    padding-bottom: 30px;
+}
+
+/*Overskrift til min indholdsoversigt*/
+#indholdpaasiden {
+    font-family: novecento-sans-wide, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+/*Min indholdsoversigt er en ul. Jeg fjerner her det default udseende linksene har...*/
+.indholdoversigt ul li a {
+    text-decoration: none;
+    color: grey;
+}
+
+/*..og tilføjer mit eget udseende og hovereffekt*/
+.indholdoversigt ul li a:hover {
+    color: black;
+}
+
+
+/*Alle min h3-overskrifter: Normalt behøver man ikke at lave det til en class eller et id. Men ved min hjemmeside fungere det ikke,  hvis man blot vælger alle h3'er. Mit bedste bud er fordi jeg har brug bootstrap, og derfor vil den ikke lade mig bestemme. */
 .h3 {
     font-family: novecento-sans-wide, sans-serif;
     font-weight: 700;
@@ -93,9 +97,10 @@ h4 {
     text-transform: uppercase;
     padding-top: 30px;
     border-top: 40px;
-    background-color: white;
+    background-color: white; /*Det var nødvendigt at sætte en background-color på..*/
 }
 
+/*... og derfor blev jeg nødt til at lave en anden til alle mine h4 der er i mine bokse*/
 .h4boks {
     background-color: #e3dcd4;
 }
@@ -109,16 +114,17 @@ h5 {
 
 
 
+/*Dette er til alt min brødtekst. Jeg har her også valgt et typeface fra Adobe Font. */
 .tekst {
     padding-top: 10px;
     padding-bottom: 20px;
     font-family: hero-new, sans-serif;
     font-weight: 200;
     font-style: normal;
-    line-height: 30px;
-    
+    line-height: 30px; /*Whitespace i teksten*/
 }
 
+/*Dette er til alle citater, da teksten bliver kursiv*/
 #citat {
     font-family: hero-new, sans-serif;
     font-weight: 200;
@@ -126,17 +132,17 @@ h5 {
     padding-bottom: 20px;
 }
 
-
+/*Bokse på siden*/
 .boks {
     background-color: #e3dcd4;
     padding-bottom: 30px;
     padding-top: 30px;
-    margin-left: -50px;
+    margin-left: -50px; /*Mine bokse skal gå helt ud til kanterne, så jeg skal derfor fjerne det paddig jeg har tilføjet*/
     margin-right: -50px;
 }
 
 
-
+/*For at forhindre problemer, har jeg lavet en class til det brødtekst der er i boksen*/
 .tekst-i-boks {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -148,47 +154,50 @@ h5 {
     padding-right: 50px;
 }
 
+/*Denne bruges til når noget tekst skal være fed*/
 .teksttyk {
     padding-top: 10px;
     padding-bottom: 20px;
     font-family: hero-new, sans-serif;
-    font-weight: 500;   
+    font-weight: 500;  /*Jo højere font-weight - jo federe tekst*/
     font-style: normal;
     line-height: 30px;
 }
 
+/*Billed på grund. kommunikation, jeg bruger flex til at får nem ved siden af hinadnen*/
 #smiley {
     display: flex;
 }
 
+/*Billed på grund. kommunikation*/
 #konsmiley {
     flex: 50%;
     width: 50%;
     height: 50%
 }
 
+/*Billed på grund. kommunikation*/
 #inkonsmiley {
     flex: 50%;
     width: 50%;
     height: 50%;
 }
 
+/*Rettelser til IMK-modellen*/
 #imk {
     width: 90%;
     padding: 20px;
     
 }
 
-.kilder {
-    text-decoration: none;
-    line-height: 10px;
-}
-
+/*Rettelser til et billede af fiske-modelle fra præsentationsteknik*/
 #fisk {
     width: 100%;
     
 }
 
+
+/*alle mine links har denne class, så de bliver ens, jeg havde problemer med at style alle ankertags, så jeg lavede istedet en class*/
 .henvisning {
    color: #a39687;
     font-family: hero-new, sans-serif; 
@@ -196,17 +205,20 @@ h5 {
     font-style: normal;
 }
 
+/*Styling på hover af alle links*/
 body .indholdcontainer a:hover {
-    text-decoration: none;
+    text-decoration: none; /*Fjerner default hover-style*/
     color: #e3dcd4;  
 }
 
 
+/*Rettelser på et billede af gradients fraIllustrator*/
 #gradient {
     width: 90%;
 }
 
 
+/*Placering af ikoner under Illustrator*/
 .ikoner {
     padding-bottom: 30px;
     padding-top: 20px;
@@ -216,20 +228,26 @@ body .indholdcontainer a:hover {
     width: 95%;
 }
 
+/*tilføjelse af padding til alle mine gif */
 .giphy-embed {
     padding-bottom: 50px;
 }
 
+
+/*Rettelse af billede fra Premiere Rush*/
 #story {
     width: 90%;
 }
 
+
+/*Min kildeliste er en ul*/
 .kildeliste {
-    list-style: none;
+    list-style: none; /*fjerner dots*/
     line-height: 30px;
     padding-bottom: 30px;
 }
 
+/*Styling af links der er placeret i min boks*/
 .link-i-boks {
     color: #b7ab9e;
 }
@@ -238,28 +256,33 @@ body .indholdcontainer .boks p a:hover {
     color: #403b35; 
 }
 
-
+/*Styling af nogle tal, der skulle være markeret anderledes end brødteksten*/
 #tal {
     font-family: hero-new, sans-serif;
     font-weight: 200;
     font-style: normal;
 }
 
+/*billede fra CSS*/
 #box-model {
     width: 90%
 }
 
+/*billede fra CSS*/
 #external {
     width: 90%;
 }
 
+/*billede fra CSS*/
 #gridstep {
     width: 80%;
 }
 
+/*billede fra informationsdesing*/
 #lapper {
     width: 100%;
 }
+
 
 #minuspadding {
     padding-top: 20px;
@@ -268,6 +291,8 @@ body .indholdcontainer .boks p a:hover {
     font-weight: 200;
     font-style: normal;
 }
+
+/*Border til afsnint om farver START*/
 
 #gul {
     padding-top: 5px;
@@ -359,15 +384,21 @@ body .indholdcontainer .boks p a:hover {
     border-radius: 25px;
 }
 
+/*Border til afsnint om farver SLUT*/
+
+/*Alle billeder om farvesammensætning fra farver*/
 #farvesammensatning {
     width: 90%;
     margin: 20px;
 }
 
+/*Billeder fra naturen fra farver*/
 #billedfarver {
     width: 100%;
 }
 
+
+/*Forskellige fonts fra Adobe Font til afsnit om Typografi - KAN KUN BRUGES I TYPOGRAFI.PHP... START*/
 .serif {
     font-family: operetta-12, serif;
     font-weight: 200;
@@ -396,12 +427,17 @@ body .indholdcontainer .boks p a:hover {
     padding-bottom: 30px;
 }
 
+
+/*Forskellige fonts fra Adobe Font til afsnit om Typografi - KAN KUN BRUGES I TYPOGRAFI.PHP... SLUT*/
+
+
+/*Alle designprincip billeder*/
 #pricipper-billeder {
     width: 100%;
     padding-bottom: 40px;
 }
 
-
+/*Farvet brødtrkst start*/
 #blaatekst {
     color: skyblue;
 }
@@ -416,6 +452,27 @@ body .indholdcontainer .boks p a:hover {
 
 #rodtekst {
     color: crimson;
+}
+/*Farvet brødtrkst start*/
+
+
+#div-billede {
+    width: 90%
+}
+
+#designtekst {
+    color: grey;
+    
+}
+
+/*Alle videoer der er embedded fra Yt*/
+#yt{
+    width: 90%;
+}
+
+/*Billede fra photoshop og illustrator workshop*/
+#efeu {
+    width: 80%;
 }
 
 
@@ -477,6 +534,9 @@ body .indholdcontainer .boks p a:hover {
         width: 60%;
     }
       
+    #div-billede {
+    width: 50%
+    }
 
 
     
@@ -485,7 +545,7 @@ body .indholdcontainer .boks p a:hover {
 
 
 
-/* MEDIA 900PX SLUT */
+/* MEDIA 700PX SLUT */
 
 
 
@@ -522,6 +582,7 @@ body .indholdcontainer .boks p a:hover {
         width: 40%;
     }
     
+    /*  grid til slowmotion og fast giffs start  */
     .speed {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -536,7 +597,9 @@ body .indholdcontainer .boks p a:hover {
     #fast {
         grid-area: fast;
     }
-
+    
+    /*  grid til slowmotion og fast giffs slut  */
+    
     #box-model {
         width: 50%;
     }
@@ -567,6 +630,10 @@ body .indholdcontainer .boks p a:hover {
     
     #pricipper-billeder {
         width: 60%;
+    }
+    
+    #div-billede {
+    width: 50%;
     }
       
    

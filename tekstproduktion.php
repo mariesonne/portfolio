@@ -19,6 +19,8 @@
         
     </header>
     
+     <a name="top"></a>
+    
     <h2 id="h2">Tekstproduktion</h2>
     
     <section class="indholdoversigt">
@@ -210,10 +212,10 @@
                
                <p class="tekst-i-boks">At skrive tekster til de sociale medier er ikke de samme som at skrive webtekster. (ibid.) Den helt store forskel ligger i at man på de sociale medier løbende er i dialog med sin målgruppe. Når man skal skrive på de sociale medier, skal man huske at man ikke bare kan skrive som man ville på sin egen profil. Det er virksomheden der er afsenderen og derfor skal man være professionel og styrke brandet i dialog med de netværk der er på de sociale medier. (ibid.) Når man er i dialog med læseren, er det ikke nok bare en skriver en tekst. Man skal være hurtig når der kommer kommentarer, især hvis de er grove eller det er klager fra utilfredse kunder. Det kan derfor være nødvendigt at have en strategi. Man kan f.eks. brug tekststrategien Försters temperamentale rose. Ved at bruge farvestrategien, kan man f.eks. nemt briefe sin afdeling der tager sig af online support og sociale medier. </p>
                
-               <p class="tekst-i-boks">BLÅ er symbolsk for information og facts. Fokuser på tal, datoer, præcision og information.</p>
-               <p class="tekst-i-boks">GRØN er symbolsk for garantier og kvalitet. Fokuser på garantier, tradition, orden og kvalitet.</p>
-               <p class="tekst-i-boks">GUL er symbolsk for oplevelser. fokuser på idéer, visioner, sjov, spontanitet og oplevelser.</p>
-               <p class="tekst-i-boks">RØD er symbolsk for kontakt og følelser. Fokuser på sympati, følelser, empati, varme og åbenhed.</p>
+               <p class="tekst-i-boks" id="blaatekst">BLÅ er symbolsk for information og facts. Fokuser på tal, datoer, præcision og information.</p>
+               <p class="tekst-i-boks" id="grontekst">GRØN er symbolsk for garantier og kvalitet. Fokuser på garantier, tradition, orden og kvalitet.</p>
+               <p class="tekst-i-boks" id="gultekst">GUL er symbolsk for oplevelser. fokuser på idéer, visioner, sjov, spontanitet og oplevelser.</p>
+               <p class="tekst-i-boks" id="rodtekst">RØD er symbolsk for kontakt og følelser. Fokuser på sympati, følelser, empati, varme og åbenhed.</p>
                
             
             </section>
@@ -234,12 +236,13 @@
                 </li>
                 <br>
                 <li>
-                    Busch, A. (2015). Tektproduktion. I Kommunikation i multimediedesign (s. 235-252). Hans Reitzels forlag.
+                    Busch, A. (2015). Tekstproduktion. I Kommunikation i multimediedesign (s. 235-252). Hans Reitzels forlag.
                 </li>
                 <br>
                  
             </ul>
         
+            <a class="henvisning" href="#top">Tilbage til toppen.</a>
     </section>
     
         <?php include('includes/footer.php'); ?>

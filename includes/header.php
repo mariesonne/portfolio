@@ -72,16 +72,16 @@
                       
                         <div class="dropdown-menu" id="projekt" aria-labelledby="navbarDropdownMenuLink">
                           <a class="dropdown-item" href="design.php">Designthinking</a>
-                          <a class="dropdown-item" href="#">HTML og CSS workshop</a>
-                          <a class="dropdown-item" href="#">Photoshop / <span id="nedryk">Illustrator workshop</span></a>
-                            <a class="dropdown-item" href="#">Onepage</a>
+                          <a class="dropdown-item" href="htmlcss.php">HTML og CSS workshop</a>
+                          <a class="dropdown-item" href="photoillu.php">Photoshop / <span id="nedryk">Illustrator workshop</span></a>
+                            <a class="dropdown-item" href="onepage.php">Onepage</a>
                         </div>
       
                     </li>
                   
                     <li class="nav-item">
                     
-                        <a class="nav-link" id="link" href="#">Link</a>
+                        <a class="nav-link" id="link" href="kilder.php">Kilder</a>
                     </li>
                   
                 </ul>

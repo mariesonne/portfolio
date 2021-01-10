@@ -19,6 +19,8 @@
         
     </header>
     
+     <a name="top"></a>
+    
     <h2 id="h2">Server</h2>
     
      <section class="indholdoversigt">
@@ -114,7 +116,7 @@
                 
            
                 
-            
+            <a class="henvisning" href="#top">Tilbage til toppen.</a>
         
     </section>
     

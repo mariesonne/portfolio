@@ -18,6 +18,8 @@
         
     </header>
     
+     <a name="top"></a>
+    
     <h2 id="h2">Premiere Rush</h2>
     
     <section class="indholdoversigt">
@@ -158,8 +160,12 @@
                     Softworld - DK. (22. februar 2019). Hvad kan Premiere Rush – Det nye videosoftware fra Adobe? Hentet fra Softworld: <a class="henvisning" href="https://blog.softworld.dk/hvad-kan-adobe-premiere-rush" target="_blank">https://blog.softworld.dk/hvad-kan-adobe-premiere-rush</a>
                 </li>
             </ul>
+            
+            
         
     </section>
+    
+        
     
         <?php include('includes/footer.php'); ?>
     

@@ -14,6 +14,8 @@
 <body>
     <header class="header">
         
+         <a name="top"></a>
+        
         <?php include('includes/header.php'); ?>
         
     </header>
@@ -241,6 +243,8 @@
                     Ellis, M. (2019). RGB vs CMYK: What’s the difference? Hentet fra 99designs: <a class="henvisning" href="https://99designs.dk/blog/tips/correct-file-formats-rgb-and-cmyk/" target="_blank">https://99designs.dk/blog/tips/correct-file-formats-rgb-and-cmyk/</a>
                 </li>
             </ul>
+            
+            <a class="henvisning" href="#top">Tilbage til toppen.</a>
         
     </section>
     

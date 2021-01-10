@@ -18,6 +18,8 @@
         
     </header>
     
+     <a name="top"></a>
+    
     <h2 id="h2">Frameworks</h2>
     
     <section class="indholdoversigt">
@@ -63,6 +65,9 @@
             
             <p class="tekst">Bootstrap er den mest populære udbyder indenfor frameworks. (What is Bootstrap?, 2020) Man kan med Bootstrap hurtigt designe responsive mobile-first-sider. Man bruger oftest Bootstrap til at hente delelementer ned, og indsætte dem på sin egen webside. Men Bootstrap tilbyder også hele websider. Inden man vælger den nemme løsning og lader Bootstrap gøre alt arbejdet, skal man huske på de ulemper der følger med, når man gør brug af frameworks. </p>
         
+            <br>
+        
+            <a class="henvisning" href="websider/bootstrapovelse/bootstrap.html" target="_blank">Eksempel på slideshow fra Bootstrap</a>
            
             <h3 class="h3" id="pers">Personlig reflektion</h3>  
             
@@ -82,7 +87,7 @@
             </ul>
         
              
-            
+            <a class="henvisning" href="#top">Tilbage til toppen.</a>
         
     </section>
     

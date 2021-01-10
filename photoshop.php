@@ -18,6 +18,8 @@
         
     </header>
     
+     <a name="top"></a>
+    
     <h2 id="h2">Photoshop</h2>
     
      <section class="indholdoversigt">
@@ -171,6 +173,8 @@
                     <a class="henvisning" href="https://redbranchmedia.com/blog/design-101-how-to-work-non-destructively-in-photoshop/" target="_blank">https://redbranchmedia.com/blog/design-101-how-to-work-non-destructively-in-photoshop/</a>
                 </li>
             </ul>
+            
+            <a class="henvisning" href="#top">Tilbage til toppen.</a>
         
         </section>
          

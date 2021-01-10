@@ -14,6 +14,8 @@
 <body>
     <header class="header">
         
+         <a name="top"></a>
+        
         <?php include('includes/header.php'); ?>
         
     </header>
@@ -212,7 +214,7 @@
         
              
             
-        
+        <a class="henvisning" href="#top">Tilbage til toppen.</a>
     </section>
     
     <?php include('includes/footer.php'); ?> 

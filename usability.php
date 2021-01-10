@@ -19,6 +19,8 @@
         
     </header>
     
+     <a name="top"></a>
+    
     <h2 id="h2">Usability testmetoder</h2>
     
     <section class="indholdoversigt">
@@ -88,10 +90,6 @@
             <p class="tekst">Spørgeskema, Kortsortering og Brugertest</p>
             
       
-            <h3 class="h3" id="vej">Vejen til kunderne</h3>
-            
-            <p class="tekst">Her kigger vi på hvordan virksomheden kommunikerer med sine kunder og hvordan de når til dem. (ibid.) Vi kigger herunder på kommunikationskanaler, distributionskanaler og salgskanaler. Vi har her fokus på mange forskellige ting. Vi ser på hvordan virksomheden øger kundernes opmærksomhed på produkterne eller ydelserne, hvordan virksomheden gør det muligt for kunderne at købe produkterne og hvordan de yder kundesupport efter købet. (ibid.) </p>  
-            
             
             
             <section class="boks">
@@ -336,6 +334,8 @@
                 </li>  
                 
             </ul>
+            
+            <a class="henvisning" href="#top">Tilbage til toppen.</a>
         
     </section>
     

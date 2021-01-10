@@ -12,12 +12,15 @@
     
 </head>
     
+    
 <body>
     <header class="header">
         
         <?php include('includes/header.php'); ?>
         
     </header>
+    
+       <a name="top"></a>
     
     <h2 id="h2">Grundlæggende fotografering</h2>
     
@@ -143,6 +146,8 @@
         <h3 class="h3" id="pers">Personlig reflektion</h3> 
         
         <p class="tekst">Jeg har taget billeder i mange år. Jeg lærte meget hurtigt de mest basale kamerateknikker på aftenskole. Deruover har jeg gået på fotografuddannelsen grundforløb, hvor jeg selfølgelig også har lært en masse om grundlæggende fotografering. Da jeg allerde vidste en del om at tage billeder, skulle jeg i undervisningen på klassen træde tilbage og lade de andre prøve - men sammentidig skulle jeg hjælpe dem. Jeg må ærlig indrømme at dette var en svær opgave og min tålmodighed blev i den grad sat på prøve. Men på denne måde lærte jeg at lære fra mig uden at tage kameraet ud af hånden på de andre.</p>
+        
+        <a class="henvisning" href="#top">Tilbage til toppen.</a>
         
      </section>
     

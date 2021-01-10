@@ -32,45 +32,84 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 .img-container {
     width: 100%; 
-    height: 80vh; 
-    overflow: hidden; 
-    display: flex; 
     justify-content: center; 
     align-items: center;
 }
 
 .img-container img {
-    position: absolute; 
-    object-fit: cover; 
     width: 100%;
-    height: 100%; 
-    pointer-events: none;
-    z-index: -1;
-}
-
-.inner-container {
-    position: relative; 
-    z-index: 1; 
-    max-width: 1000px; 
-    text-align: center;
 }
 
 
-.inner-container h1 {
+
+
+
+#navn {
     font-family: novecento-sans-wide, sans-serif;
-    font-weight: 100;
+    font-weight: 700;
     font-style: normal;
-    font-size: 1em;
-    margin-top: 6px;
-    color: white;
+    text-transform: uppercase;
+    font-size: 2em;
+    padding-top: 20px;
+    
 }
+
+#h3 {
+   font-family: novecento-sans-wide, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1.5em; 
+    padding-top: 30px;
+}
+
+#h4 {
+    font-family: novecento-sans-wide, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1em; 
+    padding-top: 40px;
+}
+
+.indholdcontainer {
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: center;
+    }
+
+.tekst {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: hero-new, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 30px;
+    
+}
+
 
 
 
      
-          
+
+@media (min-width:700px) {
+    .indholdcontainer {
+        padding-left: 150px;
+        padding-right: 150px;
+        text-align: center;
+}
 
 
+@media (min-width:1200px) {
+         .indholdcontainer {
+        padding-left: 200px;
+        padding-right: 200px;
+        text-align: center; 
+    
+}
+
+    
 
 
 

@@ -18,6 +18,8 @@
         
     </header>
     
+     <a name="top"></a>
+    
     <h2 id="h2">Informationsarkitektur</h2>
     
     <section class="indholdoversigt">
@@ -104,7 +106,7 @@
             </ul>
         
              
-            
+           <a class="henvisning" href="#top">Tilbage til toppen.</a> 
         
     </section>
     
